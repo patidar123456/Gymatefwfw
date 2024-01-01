@@ -37,6 +37,10 @@ app.post("/", async (req, res, next) => {
   }
 });
 
+app.get("/", async (req, res, next) => {
+ res.send("Hii");
+});
+
 app.listen(5000, () => {
   console.log(`Server is running on 5000`);
 });
