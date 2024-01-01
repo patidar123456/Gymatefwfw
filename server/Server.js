@@ -38,7 +38,7 @@ app.post("/", async (req, res, next) => {
 });
 
 app.get("/", async (req, res, next) => {
- res.send("Hii");
+ res.json("Hii");
 });
 
 app.listen(5000, () => {
